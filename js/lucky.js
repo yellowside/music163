@@ -2,7 +2,7 @@ wy_title = $('title').text()
 function loading() {
     $.ajax({
         type: 'GET',
-        url: 'https://yuan.cuan.la/music.php',
+        url: 'https://api.bingdou.xyz/music/music.php',
 
         data: 'format=json&id=3778678',// 可以在这里指定歌单,也可以不指定
         dataType: 'json',
